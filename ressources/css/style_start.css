@@ -71,5 +71,11 @@
         color: coral;
         background-color: white;
     }
+
+    header > p {
+        text-align: right;
+        font-style: italic;
+        color: gray
+    }
 }
 
