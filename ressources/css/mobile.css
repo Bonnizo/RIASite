@@ -2,33 +2,30 @@
 * {
     box-sizing: border-box;
 }
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
     body {
         margin: 0;
     }
-    header > h1 {
-        margin: 0;
-        padding: 1em;
+    nav {
+        text-align: center
     }
-     body > header {
-        background-image:linear-gradient(yellow, orange);
+
+     ul {
+         clear: left;
+         padding-left: 0;
+    }
+
+    nav ul li {
+        display: ;
+        list-style: none;
+        background-color: #333;
     }
     .hamburger {
-        display: none;
-    }
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
+        display: block;
 
-    li {
-      float: left;
     }
-
     li a {
+
       display: block;
       color: white;
       text-align: center;
