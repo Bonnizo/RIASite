@@ -2,10 +2,21 @@
 * {
     box-sizing: border-box;
 }
+
+p img{
+      max-width: 500px;
+}
 @media screen and (max-width: 768px) {
     * {
         margin: 0;
     }
+
+p img {
+
+
+
+  height: auto;
+}
 
     html, body {
         height: 100%;
