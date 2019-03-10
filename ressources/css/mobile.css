@@ -48,7 +48,7 @@ p img {
         display: block;
     }
      body > header {
-        background-image:linear-gradient(orange, black);
+background-image: linear-gradient(to top, rgb(227, 103, 53),rgb(246, 192, 166));
     }
     nav {
         text-align: center
@@ -57,6 +57,7 @@ p img {
      ul {
          clear: left;
          padding-left: 0;
+                 list-style-type: none;
     }
 
     nav ul li {
@@ -87,5 +88,43 @@ p img {
         background-color: white;
 
     }
+        td, th {
+        border: medium solid #000000;
+        width: 10%;
+        text-align: center
+    }
+        main{
+        margin-top: 20px  ;
+        margin-left : 10px;
+        margin-right: 10px;
+    }
+    h2{
+        border-bottom: outset;
+        border-bottom-color: gray;
+    }
+        header > p {
+        text-align: right;
+        font-style: italic;
+        color: gray;
+        padding-bottom: 20px;
+    }
+        aside{
+
+        box-shadow: 1px 1px 12px #555;
+    }
+
+    aside  h3{
+        background-color: coral;
+        color: white;
+        padding: .2em;
+    }
+
+    aside ul{
+        padding: .5em;
+        background-color: white;
+
+    }
+
+
 }
 

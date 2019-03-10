@@ -39,10 +39,11 @@ p img{
         padding: 1em;
         color: white;
         text-align: center;
+
     }
 
-    body > header {
-        background-image:linear-gradient(orange, black);
+    body > header{
+background-image: linear-gradient(to top, rgb(227, 103, 53),rgb(246, 192, 166));
     }
 
     .hamburger {
@@ -82,7 +83,40 @@ p img{
     header > p {
         text-align: right;
         font-style: italic;
-        color: gray
+        color: gray;
+        padding-bottom: 20px;
     }
-}
+
+    td, th {
+        border: medium solid #000000;
+        width: 10%;
+        text-align: center
+    }
+    main{
+
+        margin-top: 40px  ;
+        margin-left : 20px;
+        margin-right: 20px;
+    }
+    h2{
+        border-bottom: outset;
+        border-bottom-color: gray;
+    }
+
+    aside{
+        margin-left: 80%;
+        box-shadow: 1px 1px 12px #555;
+    }
+
+    aside  h3{
+        background-color: coral;
+        color: white;
+        padding: .2em;
+    }
+
+    aside ul{
+        padding: .5em;
+        background-color: white;
+
+    }
 
