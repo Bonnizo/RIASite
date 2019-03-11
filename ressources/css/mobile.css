@@ -124,6 +124,15 @@ background-image: linear-gradient(to top, rgb(227, 103, 53),rgb(246, 192, 166));
         background-color: white;
 
     }
+     p{
+        padding-bottom: 15px;
+    }
+        table{
+        padding-bottom: 20px;
+    }
+        h3{
+        padding-bottom: 10px;
+    }
 
 
 }
